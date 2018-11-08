@@ -1,6 +1,6 @@
 <%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
-<%@ Register Assembly="DevExpress.Web.v8.3, Version=8.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+<%@ Register Assembly="DevExpress.Web.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
     Namespace="DevExpress.Web.ASPxTitleIndex" TagPrefix="dxti" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -18,11 +18,11 @@
             navigateurlfield="ID" navigateurlformatstring="?id={0}" textfield="ContactName">
 <FilterBox Visible="False"></FilterBox>
 <Columns>
-<dxti:Column></dxti:Column>
-<dxti:Column></dxti:Column>
-<dxti:Column></dxti:Column>
-<dxti:Column></dxti:Column>
-<dxti:Column></dxti:Column>
+<dxti:TitleIndexColumn></dxti:TitleIndexColumn>
+<dxti:TitleIndexColumn></dxti:TitleIndexColumn>
+<dxti:TitleIndexColumn></dxti:TitleIndexColumn>
+<dxti:TitleIndexColumn></dxti:TitleIndexColumn>
+<dxti:TitleIndexColumn></dxti:TitleIndexColumn>
 </Columns>
 </dxti:aspxtitleindex>
     
